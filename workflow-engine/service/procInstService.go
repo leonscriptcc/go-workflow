@@ -2,13 +2,13 @@ package service
 
 import (
 	"errors"
+	"github.com/leonscriptcc/go-workflow/workflow-engine/flow"
+	"github.com/leonscriptcc/go-workflow/workflow-engine/model"
 	"sync"
 	"time"
 
 	"github.com/jinzhu/gorm"
 
-	"github.com/go-workflow/go-workflow/workflow-engine/flow"
-	"github.com/go-workflow/go-workflow/workflow-engine/model"
 	"github.com/mumushuiding/util"
 )
 

@@ -2,17 +2,14 @@ package main
 
 import (
 	"fmt"
+	config "github.com/leonscriptcc/go-workflow/workflow-config"
+	"github.com/leonscriptcc/go-workflow/workflow-engine/model"
+	"github.com/leonscriptcc/go-workflow/workflow-engine/service"
+	router "github.com/leonscriptcc/go-workflow/workflow-router"
 	"log"
 	"net/http"
 	"strconv"
 	"time"
-
-	router "github.com/go-workflow/go-workflow/workflow-router"
-
-	config "github.com/go-workflow/go-workflow/workflow-config"
-
-	model "github.com/go-workflow/go-workflow/workflow-engine/model"
-	"github.com/go-workflow/go-workflow/workflow-engine/service"
 )
 
 // 配置

@@ -3,7 +3,7 @@ package service
 import (
 	"errors"
 
-	"github.com/go-workflow/go-workflow/workflow-engine/model"
+	"github.com/leonscriptcc/go-workflow/workflow-engine/model"
 	"github.com/mumushuiding/util"
 )
 

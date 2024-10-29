@@ -5,7 +5,6 @@ go 1.23.0
 require (
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.8.1
-	github.com/go-workflow/go-workflow v0.0.0-20200122043112-85255031ec8d
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mumushuiding/util v0.0.0-20220111075258-3f1897a1475a
 	github.com/robfig/cron v1.2.0
